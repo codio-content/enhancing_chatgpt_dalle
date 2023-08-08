@@ -1,0 +1,21 @@
+{
+	"id": "4a1bf708-5ece-bdd8-8d87-170fce146f8c",
+	"title": "Controlling Creativity and Response Length with Temperature and Max Tokens",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "maxtokens.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

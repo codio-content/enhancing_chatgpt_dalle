@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-f0a9",
+		"Refining-System-Messages-for-Effectiveness-ae99",
+		"More-on-techniques-to-refine-messages-0c06",
+		"Managing-Conversation-Length-and-Token-Limits-c1d0",
+		"Controlling-Creativity-and-Response-Length-with-Temperature-and-Max-Tokens-4a1b",
+		"Coding-Exercise-e89d"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Introduction to GPT-3",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

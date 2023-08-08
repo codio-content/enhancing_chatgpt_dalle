@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1339680802",
+	"source": {
+		"name": "Refining system messages ",
+		"showName": true,
+		"instructions": "**(True or False):**\nRefining system messages can help the AI in generating more accurate and useful responses.\n\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "380cbc4c-e2ec-8893-afd0-4354f1860a8a",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "ba4abad4-a7b5-80bb-6ec6-5a331cf76126",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "The lesson suggests refining system messages as a way to guide the AI and achieve more accurate and useful responses. It helps the AI to understand the context and constraints better, resulting in more relevant and informative replies.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

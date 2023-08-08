@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2744544990",
+	"source": {
+		"name": "ChatGPT API",
+		"showName": true,
+		"instructions": "**Which of the following would not generate an error?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "22429f6c-fe7e-46a1-266a-a453ab0f7d2c",
+				"correct": true,
+				"answer": "```\nresponse=openai.ChatCompletion.create(\n  model=\"gpt-3.5-turbo\",\n  messages=[\n            {\"role\": \"system\", \"content\": \"You are a travel expert specializing in European destinations.\"},\n            {\"role\":\"user\",\"content\": \"Give me the top 2 tourist destinations in Germany for my honeymoon.\" }\n    ]\n)\n```"
+			},
+			{
+				"_id": "3ce7042b-3e35-d018-b280-9fd2e7e8b9ff",
+				"correct": false,
+				"answer": "```\nresponse=openai.ChatCompletion.create(\n  model=\"gpt-3.5-turbo\",\n  messages=[\n            {\"role\": \"system\", \"content\": \"You are a travel expert specializing in European destinations.\",\n            {\"role\":\"user\",\"content\": \"Give me the top 2 tourist destinations in Germany for my honeymoon.\" }}\n    ]\n)\n```"
+			}
+		],
+		"guidance": "In the second code block, would generate an error as we can see that because the closing brackets are in the wrong place: \n```\nmessages=[\n            {\"role\": \"system\", \"content\": \"You are a travel expert specializing in European destinations.\",\n            {\"role\":\"user\",\"content\": \"Give me the top 2 tourist destinations in Germany for my honeymoon.\" }}\n```\n",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-349844694",
+	"source": {
+		"name": "max tokens",
+		"showName": false,
+		"instructions": "**(True or False):**\nThe max tokens parameter should always be set to the lowest possible value to save resources.\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a8700373-a633-ed2a-5e75-c24ae68cc6fc",
+				"correct": false,
+				"answer": "True"
+			},
+			{
+				"_id": "3099bb76-2ca4-1fef-a108-c7c88a8ee1d0",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "False\nWhile setting a lower max tokens value can limit the length of the AI-generated response, setting it too low may result in incomplete or nonsensical outputs. It's important to find a balance that ensures the response length fits within the desired range while still making sense and providing useful information.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"maxtokens.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "maxtokens.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

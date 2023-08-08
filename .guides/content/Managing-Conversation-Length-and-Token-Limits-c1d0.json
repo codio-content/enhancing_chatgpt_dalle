@@ -1,0 +1,21 @@
+{
+	"id": "c1d0b164-600f-d312-0636-6ddf185050b2",
+	"title": "Managing Conversation Length and Token Limits",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "Totaltoken.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

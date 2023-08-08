@@ -1,0 +1,62 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1916386600",
+	"source": {
+		"name": "Code test",
+		"showName": false,
+		"instructions": "**Please click the button below when ready to submit your code.**",
+		"command": "python3 .guides/secure/codingex.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"guidance": "```python\ndef chatfunctions(prompts: List[str], temp: float, max_t: int) -> List[str]:\n    responses = []\n    for prompt in prompts:\n        response = openai.ChatCompletion.create(\n            model=\"gpt-3.5-turbo\",\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n                {\"role\": \"user\", \"content\": prompt}\n            ],\n            temperature=temp,\n            max_tokens=max_t\n        )\n        responses.append(response['choices'][0]['message']['content'])\n    return responses\n\ndef user_experience(prompt: str, temp: float, max_t: int):\n    response = chatfunctions([prompt], temp, max_t)\n    print(\"User: \", prompt)\n    print(\"AI: \", response[0])\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": true,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "All tests for chatfunctions() passed!",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "User experience test passed!",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
